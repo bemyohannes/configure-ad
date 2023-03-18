@@ -201,7 +201,7 @@ Open PowerShell_ise as an administrator by searching "powershell ISE" in the tas
 <img src="https://i.imgur.com/cuRuISD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
   
-Create a new file in PowerShell and paste the contents of the following script into it: (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1). Then, run the script by clicking the green symbol above the script and observe the accounts being created.  
+Create a new file in PowerShell and paste the contents of the following script into it: PowerShell script. Then, run the script by clicking the green symbol above the script and observe the accounts being created.  
   
 <p>
 <img src="https://i.imgur.com/Potj0Kq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -233,4 +233,4 @@ Great! You should have been able to log in; to verify you can always use Command
 <img src="https://i.imgur.com/wxnbKlx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
   
-This concludes the tuorial. Congratulations!
+This concludes the tutorial. Congratulations!
