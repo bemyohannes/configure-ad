@@ -3,12 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+Hey and welcome back! This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,6 +25,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
+
+<p>
+The image below displays what we will be doing in this tutorial.
+
+We will be creating two virtual machines (VMs) in the same Azure virtual network (VNET) called Client-1 and DC-1 (DC-1 is a domain controller, or server, that has Active Directory (AD) installed on it). The VNET will be created automatically when we create the virtual machines, in addition to a network interface card (NIC) for each VM. We will also setup the virtual NIC of DC-1 to have a static IP address, so that it does not change: it’s important to do this because DC-1 has AD installed on it and Client-1 will be joining DC-1 to get access to AD; therefore, it’s important for DC-1’s IP address to be static. </p>
+
+<p>
+<img src="https://i.imgur.com/EuLPCs3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+
+
+
+
+
+
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
