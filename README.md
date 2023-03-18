@@ -42,7 +42,7 @@ We will be creating two virtual machines (VMs) in the same Azure virtual network
 
 <h3>Setup Resources in Azure</h3>
 
-<p>Create a resource group in the Azure portal and then create the domain controller VM (Windows Server 2022) named “DC-1” and also the Client VM (Windows 10) named “Client-1.” The VNET and Subnet will be created automatically when you create the resource group. Just make sure they are both the same for both VM’s.</p>
+<h4>Create a resource group in the Azure portal and then create the domain controller VM (Windows Server 2022) named “DC-1” and also the Client VM (Windows 10) named “Client-1.” The VNET and Subnet will be created automatically when you create the resource group. Just make sure they are both the same for both VM’s.<h4>
 
 <p>
 <img src="https://i.imgur.com/2nWpVOx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
