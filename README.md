@@ -64,7 +64,8 @@ Login to Client-1 with Remote Desktop (RDC) using Client-1's public IP address a
 <img src="https://i.imgur.com/HbJIAW7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>  
   
-Login to DC-1 with (RDC) using its public IP address and enable ICMPv4 (the network protocol that ping uses, Internet Control Message Protocol) in the local windows Firewall by typing "firewall" in the search bar and selecting "Windows Defender Firewall with Advanced Security" > click "Inbound Rules" on top left > note ICMPv4 under "Protocol" heading and enable the three "Core Networking" rules by right-clicking and clicking "Enable Rule." <br />  
+Login to DC-1 with (RDC) using its public IP address and enable ICMPv4 (the network protocol that ping uses, Internet Control Message Protocol) in the local windows Firewall by typing "firewall" in the search bar and selecting "Windows Defender Firewall with Advanced Security" > click "Inbound Rules" on top left > note ICMPv4 under "Protocol" heading and enable the three "Core Networking" rules by right-clicking and clicking "Enable Rule." 
+<br />  
   
 <p>
 <img src="https://i.imgur.com/Sjfj9xt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
