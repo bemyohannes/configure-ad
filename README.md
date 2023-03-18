@@ -84,7 +84,7 @@ Check back at Client-1 to see the ping succeed, now that ICMPv4 has been enabled
 <p>
 <img src="https://i.imgur.com/om3JZ1L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
+<br />
 Next, click the yellow notification symbol on the tool bar on top right and click "Promote this server to a domain controller"
 
 <p>
@@ -113,9 +113,9 @@ From DC-1, you can access Active Directory by searching "Active Directory Users 
 <p>
 <img src="https://i.imgur.com/t8lBIr4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p> 
-
+<br />
 In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) named “_EMPLOYEES” and second OU named “_ADMINS” by right-clicking on “mydomain.com” in the top left task bar > navigate to New > click Organizational Unit (a folder within AD, essentially).
-
+<br />
 <p>
 <img src="https://i.imgur.com/yRMgoK8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -139,7 +139,7 @@ Close the Remote Desktop Connection to DC-1 and log back in as “mydomain.com\j
 <p>
 <img src="https://i.imgur.com/QIaNGmZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>  
-
+<br />
 Use jane_admin as your admin account from now on
 
   
