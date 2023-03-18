@@ -112,18 +112,21 @@ DC-1 will restart on its own. Log back in to DC-1 using the domain name and pass
 <h3>Create an Admin and Normal User Account in Active Directory</h3>
 
 From DC-1, you can access Active Directory by searching "Active Directory Users and Computers" in the search bar or by clicking Tools on the tool bar of Server Manager Dashboard and clikcing "Active Directory Users and Computers," either way is fine.
-  
+
+<br />  
 <p>
 <img src="https://i.imgur.com/t8lBIr4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p> 
 <br />
+
 In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) named “_EMPLOYEES” and second OU named “_ADMINS” by right-clicking on “mydomain.com” in the top left task bar > navigate to New > click Organizational Unit (a folder within AD, essentially).
+
 <br />
 <p>
 <img src="https://i.imgur.com/yRMgoK8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-  <br />
+<br />
 
 Create a new employee named “Jane Doe” (same password) with the username of “jane_admin” by clicking _ADMINS OU in the left task bar and right-clicking in the empty space of the OU > navigate to New > click User
 
