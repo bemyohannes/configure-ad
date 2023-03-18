@@ -187,44 +187,50 @@ Now, log back into Client-1 as mydomain.com\jane_admin and allow “domain users
 
 You can now log into Client-1 as a normal, non-administrative user.
 
-
-
-
-
-
-
-
-
-
-
-
 <h3>Create Additional Users and Attempt to Login to Client-1 With One of the Users</h3>
 
-
-
-
-
+You should already be logged into DC-1 as jane_admin; to verify you can type "whoami" and "hostname" into Command-line.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MPuN08n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+Open PowerShell_ise as an administrator by searching "powershell ISE" in the task bar and clicking "Run as administrator" on the right. 
+  
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/cuRuISD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+  
+Create a new file in PowerShell and paste the contents of the following script into it: (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1). Then, run the script by clicking the green symbol above the script and observe the accounts being created.  
+  
+<p>
+<img src="https://i.imgur.com/Potj0Kq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p> 
+  
+Open Active Directory Users and Computers (ADUC), right-click the _EMPLOYEES OU, click Refresh and observe the created accounts. 
+  
+<p>
+<img src="https://i.imgur.com/NKwQQS1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>  
+  
+<p>
+<img src="https://i.imgur.com/TphSEOS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+  
+Now, log out of Client-1 and attempt to log back in with one of the accounts (take note of the password in the script).
+  
+<p>
+<img src="https://i.imgur.com/O7exBfU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+ 
+<p>
+<img src="https://i.imgur.com/cZz70SV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>  
+  
+Great! You should have been able to log in; to verify you can always use Command-line: 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wxnbKlx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  
+This concludes the tuorial. Congratulations!
