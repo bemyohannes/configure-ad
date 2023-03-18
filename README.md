@@ -84,9 +84,12 @@ Check back at Client-1 to see the ping succeed, now that ICMPv4 has been enabled
 <p>
 <img src="https://i.imgur.com/om3JZ1L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <br />
+
 Next, click the yellow notification symbol on the tool bar on top right and click "Promote this server to a domain controller"
 
+<br />
 <p>
 <img src="https://i.imgur.com/2UNPDpP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
